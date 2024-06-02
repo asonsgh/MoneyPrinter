@@ -258,7 +258,7 @@ def generate():
             if not SKIP_YT_UPLOAD:
                 # Choose the appropriate category ID for your videos
                 video_category_id = "28"  # Science & Technology
-                privacyStatus = "private"  # "public", "private", "unlisted"
+                privacyStatus = "public"  # "public", "private", "unlisted"
                 video_metadata = {
                     'video_path': os.path.abspath(f"../temp/{final_video_path}"),
                     'title': title,
